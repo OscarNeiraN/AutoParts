@@ -21,6 +21,6 @@ jobs:
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@v2
         with:
-          projectKey: oscarneiran_AutoParts
-          organization: oscarneiran
+          projectKey: OscarNeira_Autopartes
+          organization: OscarNeira
           token: ${{ secrets.SONAR_TOKEN }}
